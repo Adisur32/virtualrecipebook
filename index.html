@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Recipe Book</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="main-container">
+        <div class="container">
+            <h1>Virtual Recipe Book</h1>
+            <p class="intro-text">Welcome to the Virtual Recipe Book! Enter the name of a dish to find delicious recipes from around the world. Happy cooking!</p>
+            <form id="recipe-form">
+                <input type="text" id="dish-name" placeholder="Masukkan nama hidangan" required>
+                <button type="submit">Cari Resep</button>
+            </form>
+            <div id="recipe-result"></div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Virtual Recipe Book</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
